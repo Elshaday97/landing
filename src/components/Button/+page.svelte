@@ -15,7 +15,9 @@
 	export let target = '_blank';
 </script>
 
-<div class="flex items-center h-[40px] sm:h-[50px] md:h-[55px] w-[180px] sm:w-[200px] md:w-[250px]">
+<div
+	class="flex items-center h-[40px] sm:h-[50px] md:h-[55px] w-[180px] sm:w-[200px] md:w-[250px] z-50"
+>
 	{#if link}
 		<a class="w-[90%] h-full" href={link} {target} rel="noopener noreferrer">
 			<div
